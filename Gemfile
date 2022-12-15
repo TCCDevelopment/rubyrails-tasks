@@ -5,12 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6'
+gem 'rails', '~> 7.0.4'
 # Use twitter-bootstrap-rails
-gem 'therubyracer'
-gem 'less-rails'
+# gem 'therubyracer'
+# gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 # Use postgresql as the database for Active Record
